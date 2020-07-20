@@ -1,0 +1,69 @@
+env:
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 5
+
+  title: Alacritty
+
+scrolling:
+  history: 100000
+
+font:
+  normal:
+    family: Roboto Mono for Powerline
+    style: Regular
+  bold:
+    family: Roboto Mono for Powerline
+    style: Bold
+  italic:
+    family: Roboto Mono for Powerline
+    style: Italic
+  bold_italic:
+    family: Roboto Mono for Powerline
+    style: Bold Italic
+  size: 12.0
+
+shell:
+  program: '/bin/zsh'
+
+# Colors
+colors:
+  # Default colors
+  primary:
+    background: '0x1E1E3F'
+    foreground: '0xC9C8FF'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1E1E3F'
+    cursor: '0xFAD000'
+
+  # Normal colors
+  normal:
+    black: '0x000000'
+    red: '0xEC3A37'
+    green: '0x75e44c'
+    yellow: '0xFAD000'
+    blue: '0x6943FF'
+    magenta: '0xFF2C70'
+    cyan: '0x80FCFF'
+    white: '0xFFFFFF'
+
+  # Bright colors
+  bright:
+    black: '0x5C5C61'
+    red: '0xEC3A37'
+    green: '0x3AD900'
+    yellow: '0xFAD000'
+    blue: '0x6943FF'
+    magenta: '0xFB94FF'
+    cyan: '0x80FCFF'
+    white: '0x2D2B55'
+
+selection:
+  save_to_clipboard: true
+
+mouse_bindings:
+  - { mouse: Right, action: PasteSelection }
