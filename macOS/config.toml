@@ -1,0 +1,3 @@
+path = ["/Users/nlkop0l/.cargo/bin", "/usr/local/go/bin", "/usr/local/bin", "/usr/bin", "/usr/sbin", "/sbin", "/opt/X11/bin"]
+table_mode = "normal"
+startup = ["alias  vi [x] { vim $x }", "alias  ll [x] { ls -asfw $x | select name type target readonly mode group size modified }"]

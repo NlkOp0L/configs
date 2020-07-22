@@ -1,11 +1,11 @@
 " ----- Vim display setup
 set t_Co=256
-set encoding=utf-8
-set nocompatible
+"set encoding=utf-8
+"set nocompatible
 
 
 
-" ----- Plugins setup
+" ----- Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'kien/ctrlp.vim'
 Plug 'preservim/nerdtree'
@@ -40,12 +40,21 @@ set softtabstop=4
 
 
 
+" ----- Theme
+set nu
+set list
+set listchars=tab:→\ ,trail:·,eol:¬
+colorscheme peachpuff
+
+
+
 " ----- Statusline
-hi LineColor ctermbg=140
-hi NormalColor ctermbg=46 ctermfg=0
-hi InsertColor ctermbg=58 ctermfg=0
-hi ReplaceColor ctermbg=165 ctermfg=0
-hi VisualColor ctermbg=202
+hi LineColor ctermbg=147 ctermfg=124
+hi NormalColor ctermbg=120 ctermfg=0
+hi InsertColor ctermbg=11 ctermfg=0
+hi ReplaceColor ctermbg=208 ctermfg=0
+hi VisualColor ctermbg=1
+hi TailColor ctermbg=193 ctermfg=0
 set laststatus=2
 set statusline=
 set statusline+=%#NormalColor#%{(mode()=='n')?'\ \ NORMAL\ ':''}
@@ -58,17 +67,9 @@ set statusline+=%#LineColor#\ %f
 set statusline+=%m\
 set statusline+=%=
 set statusline+=%#CursorColumn#
-set statusline+=%#NormalColor#\ %y
+set statusline+=%#TailColor#\ %y
 set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
 set statusline+=\[%{&fileformat}\]
 set statusline+=\ %p%%
 set statusline+=\ %l:%c
 set statusline+=\ 
-
-
-
-" ----- Theme
-set nu
-set list
-set listchars=tab:→\ ,trail:·,eol:¬
-colorscheme peachpuff

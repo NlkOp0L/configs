@@ -1,3 +1,5 @@
+# ~/alacritty.yaml
+
 env:
   TERM: xterm-256color
 
@@ -26,7 +28,7 @@ font:
   size: 12.0
 
 shell:
-  program: '/bin/zsh'
+  program: '/usr/local/bin/nu'
 
 # Colors
 colors:
@@ -67,3 +69,16 @@ selection:
 
 mouse_bindings:
   - { mouse: Right, action: PasteSelection }
+
+key_bindings:
+    # |
+    - { key: L,         mods: Alt,          chars: "\x7c"}
+    # {}
+    - { key: LBracket,  mods: Alt,          chars: "\x7b"}
+    - { key: RBracket,  mods: Alt,          chars: "\x7d"}
+    # []
+    - { key: LBracket,  mods: Alt|Shift,    chars: "\x5b"}
+    - { key: RBracket,  mods: Alt|Shift,    chars: "\x5d"}
+    # Move cursor to previous/next word
+    - { key: Left,      mods: Shift,        chars: "\x1b[1;6D" }
+    - { key: Right,     mods: Shift,        chars: "\x1b[1;6C" }
