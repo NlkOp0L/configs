@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "ayu-mirage.sublime-theme",
+	"ui_separator": true,
+	"line_ending": "unix",
+	"translate_tabs_to_spaces": true
+}

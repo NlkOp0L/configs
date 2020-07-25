@@ -1,0 +1,22 @@
+{
+    "shell_cmd": "cd $project_path; cargo run",
+    "variants": [
+        {
+            "name" : "build",
+            "shell_cmd": "cd $project_path; cargo build"
+        },
+        {
+            "name" : "run",
+            "shell_cmd": "cd $project_path; cargo run"
+        },
+        {
+            "name" : "test",
+            "shell_cmd": "cd $project_path; cargo test"
+        },
+        {
+            "name" : "clean",
+            "shell_cmd": "cd $project_path; cargo clean"
+        }
+    ]
+
+}

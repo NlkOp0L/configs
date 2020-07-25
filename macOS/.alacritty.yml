@@ -1,5 +1,3 @@
-# ~/alacritty.yaml
-
 env:
   TERM: xterm-256color
 
