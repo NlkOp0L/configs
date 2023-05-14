@@ -1,73 +1,53 @@
 # %APPDATA%/alacritty/alacritty.yml
 
-env:
-  TERM: xterm-256color
-  # TERM: cygwin
-
 window:
   padding:
     x: 5
-
   title: Alacritty
-
 scrolling:
   history: 100000
-
 font:
   normal:
-    family: Roboto Mono for Powerline
+    family: FiraMono Nerd Font Mono 
     style: Regular
   bold:
-    family: Roboto Mono for Powerline
+    family: FiraMono Nerd Font Mono 
     style: Bold
   italic:
-    family: Roboto Mono for Powerline
+    family: FiraMono Nerd Font Mono
     style: Italic
   bold_italic:
-    family: Roboto Mono for Powerline
+    family: FiraMono Nerd Font Mono
     style: Bold Italic
   size: 9.0
-
 shell:
-  program: 'nu.exe'
-  # program: 'C:\Program Files\Git\bin\\bash.exe'
-
-# Colors
+  program: C:\Program Files\Git\bin\bash.exe
 colors:
-  # Default colors
   primary:
-    background: '0x1E1E3F'
-    foreground: '0xC9C8FF'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
+    foreground: '#9189e0'
+    background: '#232136'
   cursor:
-    text: '0x1E1E3F'
-    cursor: '0xFAD000'
-
-  # Normal colors
+    text: '#1E1E3F'
+    cursor: '#FAD000'
   normal:
-    black: '0x000000'
-    red: '0xEC3A37'
-    green: '0x75e44c'
-    yellow: '0xFAD000'
-    blue: '0x6943FF'
-    magenta: '0xFF2C70'
-    cyan: '0x80FCFF'
-    white: '0xFFFFFF'
-
-  # Bright colors
+    black: '#000000'
+    red: '#EC3A37'
+    green: '#75e44c'
+    yellow: '#FAD000'
+    blue: '#6943FF'
+    magenta: '#FF2C70'
+    cyan: '#80FCFF'
+    white: '#FFFFFF'
   bright:
-    black: '0x5C5C61'
-    red: '0xEC3A37'
-    green: '0x3AD900'
-    yellow: '0xFAD000'
-    blue: '0x6943FF'
-    magenta: '0xFB94FF'
-    cyan: '0x80FCFF'
-    white: '0x2D2B55'
-
+    black: '#5C5C61'
+    red: '#EC3A37'
+    green: '#3AD900'
+    yellow: '#FAD000'
+    blue: '#462daa'
+    magenta: '#FB94FF'
+    cyan: '#80FCFF'
+    white: '#2D2B55'
 selection:
   save_to_clipboard: true
-
 mouse_bindings:
   - { mouse: Right, action: PasteSelection }
