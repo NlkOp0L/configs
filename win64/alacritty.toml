@@ -1,0 +1,65 @@
+[colors.bright]
+black = "#5C5C61"
+blue = "#462daa"
+cyan = "#80FCFF"
+green = "#3AD900"
+magenta = "#FB94FF"
+red = "#EC3A37"
+white = "#2D2B55"
+yellow = "#FAD000"
+
+[colors.cursor]
+cursor = "#FAD000"
+text = "#1E1E3F"
+
+[colors.normal]
+black = "#000000"
+blue = "#6943FF"
+cyan = "#80FCFF"
+green = "#75e44c"
+magenta = "#FF2C70"
+red = "#EC3A37"
+white = "#FFFFFF"
+yellow = "#FAD000"
+
+[colors.primary]
+background = "#232136"
+foreground = "#9189e0"
+
+[font]
+size = 9.0
+
+[font.bold]
+family = "FiraMono Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "FiraMono Nerd Font Mono"
+style = "Regular"
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Right"
+
+[scrolling]
+history = 100000
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+program = 'C:\Program Files\Git\bin\bash.exe'
+
+[window]
+title = "Alacritty"
+
+[window.padding]
+x = 5
