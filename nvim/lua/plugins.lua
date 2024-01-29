@@ -37,25 +37,5 @@ return require("packer").startup(function(use)
     -- File explorer
     use "nvim-tree/nvim-tree.lua"
 
-    -- Snippets
-    use "dcampos/nvim-snippy"
-    use "honza/vim-snippets"
-
-    -- Completion engine
-    use "hrsh7th/nvim-cmp"
-    -- Cmp sources
-    use "hrsh7th/cmp-buffer"
-    use "hrsh7th/cmp-path"
-    use "hrsh7th/cmp-cmdline"
-    use "hrsh7th/cmp-nvim-lsp"
-    use "dcampos/cmp-snippy"
-
-    -- Language Server Protocol
-    use "onsails/lspkind.nvim"
-    use "williamboman/mason.nvim"
-    use "williamboman/mason-lspconfig.nvim"
-    use "neovim/nvim-lspconfig"
-    use "mfussenegger/nvim-jdtls"
-
     require("packer").install()
 end)
