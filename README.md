@@ -1,9 +1,18 @@
-# Nvim
-Windows files located here: **%LOCALAPPDATA%/nvim**
+# Development environment
 
-# Win64
-## Bashrc
-.bashrc located here: **%HOMEPATH%/.bashrc**
+## Bash config
+```
+cp confs/.bashrc ~/.bashrc
+```
 
-## Alacritty
-alacritty.toml located here: **%APPDATA%/alacritty/alacritty.toml**
+## Vim
+```
+cp confs/.vimrc ~/.vimrc
+cp -r confs/.vim ~/.vim
+```
+
+## Hyper config
+```
+cp confs/.hyper.js $APPDATA/hyper/.hyper.js
+```
+
