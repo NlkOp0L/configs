@@ -2,17 +2,17 @@
 
 ## Bash config
 ```
-cp confs/.bashrc ~/.bashrc
+cp .bashrc ~/.bashrc
 ```
 
 ## Vim
 ```
-cp confs/.vimrc ~/.vimrc
-cp -r confs/.vim ~/.vim
+cp .vimrc ~/.vimrc
+cp -r .vim ~/.vim
 ```
 
 ## Hyper config
 ```
-cp confs/.hyper.js $APPDATA/hyper/.hyper.js
+cp .hyper.js $APPDATA/hyper/.hyper.js
 ```
 
