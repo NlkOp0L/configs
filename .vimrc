@@ -31,9 +31,9 @@ noremap <Space> <Nop>
 let mapleader = ' ' 
 let maplocalleader = ' ' 
 noremap <Leader>t <CR>
-noremap <C-a> <C-w>h
+noremap <C-q> <C-w>h
 noremap <C-s> <C-w>j
-noremap <C-w> <C-w>k
+noremap <C-z> <C-w>k
 noremap <C-d> <C-w>l
 noremap <C-Up> :resize -2<cr>
 noremap <C-Down> :resize +2<cr>
@@ -47,11 +47,7 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'tomtom/tcomment_vim'
 Plug 'junegunn/seoul256.vim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'github/copilot.vim'
-Plug 'CopilotC-Nvim/CopilotChat.nvim'
 Plug 'itchyny/lightline.vim'
-Plug 'vim-scripts/spacehi.vim'
 call plug#end()
 
 " Theme
